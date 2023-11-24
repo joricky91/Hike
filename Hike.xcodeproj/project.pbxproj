@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37B6EED62B1090AB0009ECDA /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B6EED52B1090AB0009ECDA /* GradientButtonStyle.swift */; };
 		5108768A2B0F728600975597 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510876892B0F728600975597 /* HikeApp.swift */; };
 		5108768C2B0F728600975597 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5108768B2B0F728600975597 /* ContentView.swift */; };
 		5108768E2B0F728800975597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5108768D2B0F728800975597 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37B6EED52B1090AB0009ECDA /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		510876862B0F728600975597 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		510876892B0F728600975597 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		5108768B2B0F728600975597 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				5108769D2B0F77F000975597 /* Color + Ext.swift */,
+				37B6EED52B1090AB0009ECDA /* GradientButtonStyle.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				510876982B0F761E00975597 /* CardView.swift in Sources */,
 				5108769E2B0F77F000975597 /* Color + Ext.swift in Sources */,
 				510876A02B107EC400975597 /* CustomButtonView.swift in Sources */,
+				37B6EED62B1090AB0009ECDA /* GradientButtonStyle.swift in Sources */,
 				5108768A2B0F728600975597 /* HikeApp.swift in Sources */,
 				5108769B2B0F76D100975597 /* CustomBackgroundView.swift in Sources */,
 			);
