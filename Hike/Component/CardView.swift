@@ -52,11 +52,7 @@ struct CardView: View {
                 //MARK: - MAIN CONTENT
                 
                 ZStack {
-                    Circle()
-                        .fill(
-                            LinearGradient(colors: [Color("ColorIndigoMedium"), Color("ColorSalmonLight")], startPoint: .topLeading, endPoint: .bottomTrailing)
-                        )
-                        .frame(width: 256, height: 256)
+                    CustomCircleView()
                     
                     Image("image-\(imageNumber)")
                         .resizable()
@@ -66,7 +62,7 @@ struct CardView: View {
                 
                 //MARK: - FOOTER
                 Button {
-                    // MARK: - ACTION
+                    // Randomize image
                     randomImage()
                 } label: {
                     Text("Explore More")
